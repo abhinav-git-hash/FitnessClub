@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fitness Club</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f7f0e6; /* New unique background */
+        }
+        header {
+            background: #2b2b52;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background: #464675;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+        .card {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.2);
+        }
+        .card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        footer {
+            background: #2b2b52;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>PowerFit Fitness Club</h1>
+        <p>Your Journey to a Better You Starts Here</p>
+    </header>
+
+    <nav>
+        <a href="#classes">Classes</a>
+        <a href="#trainers">Trainers</a>
+        <a href="#plans">Membership Plans</a>
+        <a href="#blog">Fitness Blog</a>
+    </nav>
+
+    <section id="classes">
+        <h2>Class Schedules</h2>
+        <div class="container">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1554284126-aa88f22d8b72?w=500" />
+                <h3>Yoga</h3>
+                <p>Monday, Wednesday, Friday - 7:00 AM</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1558611848-73f7eb4001a1?w=500" />
+                <h3>HIIT Training</h3>
+                <p>Tuesday, Thursday - 6:00 PM</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=500" />
+                <h3>Strength Training</h3>
+                <p>Daily - 8:00 AM</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="trainers">
+        <h2>Trainer Profiles</h2>
+        <div class="container">
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1?w=500" />
+                <h3>John Carter</h3>
+                <p>Strength & Conditioning Coach</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1599058918144-8f58fccfa69f?w=500" />
+                <h3>Sophia Lane</h3>
+                <p>Yoga & Meditation Instructor</p>
+            </div>
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=500" />
+                <h3>Michael Smith</h3>
+                <p>Cardio & HIIT Coach</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="plans">
+        <h2>Membership Plans</h2>
+        <div class="container">
+            <div class="card">
+                <h3>Basic Plan</h3>
+                <p>₹999 / month</p>
+                <p>Gym Access Only</p>
+            </div>
+            <div class="card">
+                <h3>Standard Plan</h3>
+                <p>₹1499 / month</p>
+                <p>Gym + Classes</p>
+            </div>
+            <div class="card">
+                <h3>Premium Plan</h3>
+                <p>₹2499 / month</p>
+                <p>All Access + Personal Trainer</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog">
+        <h2>Fitness Tips Blog</h2>
+        <div class="container">
+            <div class="card">
+                <h3>5 Benefits of Morning Workouts</h3>
+                <p>Boost energy, burn fat faster, and improve consistency...</p>
+            </div>
+            <div class="card">
+                <h3>Healthy Diet for Muscle Gain</h3>
+                <p>Protein-rich foods, calorie surplus, hydration...</p>
+            </div>
+            <div class="card">
+                <h3>How to Stay Motivated</h3>
+                <p>Set small goals, track your progress, stay positive...</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>PowerFit Fitness Club © 2025 | Stay Fit. Stay Strong.</p>
+    </footer>
+</body>
+</html>
